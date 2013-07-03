@@ -1,0 +1,171 @@
+nginx (1.5.2-1~raring) raring; urgency=low
+
+  * 1.5.2
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 02 Jul 2013 17:27:00 +0400
+
+nginx (1.5.1-1~raring) raring; urgency=low
+
+  * 1.5.1
+  * dpkg-buildflags options now passed by --with-{cc,ld}-opt
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 04 Jun 2013 17:45:54 +0400
+
+nginx (1.5.0-1) raring; urgency=low
+
+  * 1.5.0
+  * fixed openssl version detection with dash as /bin/sh
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 06 May 2013 14:15:00 +0400
+
+nginx (1.3.16-1) raring; urgency=low
+
+  * 1.3.16
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 16 Apr 2013 16:44:00 +0400
+
+nginx (1.3.15-1) raring; urgency=low
+
+  * 1.3.15
+  * gunzip module added
+  * spdy module added if openssl version >= 1.0.1
+  * set permissions on default log files at installation
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 26 Mar 2013 19:05:00 +0400
+
+nginx (1.2.7-1) raring; urgency=low
+
+  * 1.2.7
+  * excess slash removed from --prefix
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 12 Feb 2013 17:45:00 +0400
+
+nginx (1.2.6-1) raring; urgency=low
+
+  * 1.2.6
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 11 Dec 2012 18:40:00 +0400
+
+nginx (1.2.5-1) raring; urgency=low
+
+  * 1.2.5
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 13 Nov 2012 15:52:57 +0400
+
+nginx (1.2.4-1) raring; urgency=low
+
+  * 1.2.4
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 25 Sep 2012 14:54:32 +0400 
+
+nginx (1.2.3-1) raring; urgency=low
+
+  * 1.2.3
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 07 Aug 2012 15:51:30 +0400
+
+nginx (1.2.2-1) raring; urgency=low
+
+  * 1.2.2
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 03 Jul 2012 15:31:29 +0400
+
+nginx (1.2.1-1) raring; urgency=low
+
+  * 1.2.1
+  * package provides 'httpd' (ticket #158)
+  * upgrade action added to postinst script
+  * minor fix in prerm
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 05 Jun 2012 14:41:56 +0400
+
+nginx (1.2.0-1) raring; urgency=low
+
+  * 1.2.0
+
+ -- Sergey Budnevitch <sb@nginx.com>  Mon, 23 Apr 2012 17:04:12 +0400
+
+nginx (1.0.15-1) raring; urgency=low
+
+  * 1.0.15
+
+ -- Sergey Budnevitch <sb@nginx.com>  Thu, 12 Apr 2012 16:40:00 +0400
+
+nginx (1.0.14-2) raring; urgency=low
+  * postinst script added to fix error on installation when another
+    process listens on 80 port
+
+ -- Sergey Budnevitch <sb@nginx.com>  Thu, 22 Mar 2012 12:40:34 +0400
+
+nginx (1.0.14-1) raring; urgency=low
+
+  * 1.0.14
+
+ -- Sergey Budnevitch <sb@nginx.com>  Thu, 15 Mar 2012 16:47:09 +0400
+
+nginx (1.0.13-1) raring; urgency=low
+
+  * 1.0.13
+
+ -- Sergey Budnevitch <sb@nginx.com>  Mon, 05 Mar 2012 20:19:10 +0400
+
+nginx (1.0.12-1) raring; urgency=low
+
+  * 1.0.12
+  * banner added to install script
+
+ -- Sergey Budnevitch <sb@nginx.com>  Mon, 06 Feb 2012 18:24:15 +0400
+
+nginx (1.0.11-1) raring; urgency=low
+
+  * 1.0.11
+  * init script enhancements (thanks to Gena Makhomed)
+
+ -- Sergey Budnevitch <sb@nginx.com>  Thu, 15 Dec 2011 19:05:46 +0400
+
+nginx (1.0.10-1) raring; urgency=low
+
+  * 1.0.10
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 15 Nov 2011 12:55:36 +0400
+
+nginx (1.0.9-1) raring; urgency=low
+
+  * 1.0.9
+  * nginx-debug package added
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 01 Nov 2011 18:54:02 +0400
+
+nginx (1.0.8-2) raring; urgency=low
+
+  * typo in configure fixed
+  * upgrade and configtest arguments to init-script added (based on fedora one)
+  * logrotate creates new logfiles with nginx owner
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 11 Oct 2011 19:49:11 +0400
+
+nginx (1.0.8-1) raring; urgency=low
+
+  * 1.0.8
+  * built with mp4 module
+
+ -- Sergey Budnevitch <sb@nginx.com>  Sat, 01 Oct 2011 17:22:17 +0400
+
+nginx (1.0.7-1) raring; urgency=low
+
+  * 1.0.7
+
+ -- Sergey Budnevitch <sb@nginx.com>  Fri, 30 Sep 2011 18:34:17 +0400
+
+nginx (1.0.6-1) raring; urgency=low
+
+  * 1.0.6
+  * replace "conf.d/*" config include with "conf.d/*.conf" in default nginx.conf  
+
+ -- Sergey Budnevitch <sb@nginx.com>  Tue, 30 Aug 2011 19:27:16 +0400
+
+nginx (1.0.5-1) raring; urgency=low
+
+  * Initial release
+
+ -- Sergey Budnevitch <sb@nginx.com>  Thu, 11 Aug 2011 12:57:47 +0400

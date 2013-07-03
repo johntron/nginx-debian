@@ -1,0 +1,12 @@
+/usr/sbin
+/etc/nginx
+/etc/nginx/sites-available
+/etc/nginx/sites-enabled
+/etc/nginx/conf.d
+/etc/logrotate.d
+/usr/share/nginx
+/var/lib/nginx
+/usr/share/nginx/html
+/var/cache/nginx
+/var/log/nginx
+/run

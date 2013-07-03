@@ -1,0 +1,16 @@
+Source: nginx
+Section: httpd
+Priority: optional
+Maintainer: Sergey Budnevitch <sb@nginx.com>
+Build-Depends: debhelper (>= 7.0.50~), libssl-dev (>= 1.0.1), libpcre3-dev, zlib1g-dev
+Standards-Version: 3.9.4
+Homepage: http://nginx.org
+
+Package: nginx
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, lsb-base, adduser
+Provides: httpd
+Description: high-performance webserver with SPDY and Google's pagespeed
+ high-performance webserver from the (unofficial) Github repository
+ (nginx/nginx). Includes support for SPDY and Google's pagespeed module for
+ nginx.

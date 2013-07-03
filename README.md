@@ -1,6 +1,6 @@
-# nginx-speedy
+# nginx-debian
 
-Debian source package for nginx.
+Debian package source for nginx.
 
 Includes:
  * nginx from [nginx/nginx](https://github.com/nginx/nginx)

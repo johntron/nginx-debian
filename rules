@@ -39,7 +39,7 @@ override_dh_auto_configure:
                 --with-http_dav_module \
                 --with-http_gzip_static_module \
 		--with-http_stub_status_module \
-                --with-http_spdy_module	
+                --with-http_spdy_module	\
 		--add-module=$(MODULESDIR)/ngx_pagespeed \
 		--with-cc-opt="$(CFLAGS)" \
 		--with-ld-opt="$(LDFLAGS)" \
